@@ -502,7 +502,7 @@ struct hid_device_info  HID_API_EXPORT *hid_enumerate(unsigned short vendor_id, 
 							"usb_device");
 
 					if (!usb_dev) {
-#warning "Custom code here"
+#warning "Custom HIDAPI code here"
 						/* CUSTOM CODE TO MAKE HIDAPI DETECT UHID VIRTUAL DEVICES */
 						/*
 						The problem seems to be related to the udev library. udev_device_get_parent_with_subsystem_devtype()
